@@ -1,0 +1,12 @@
+Pain make man think.
+Thought makes man wise.
+Wisdom makes life endurable. - John Patrick
+
+
+
+// 문자열 교체 연습
+
+:1,$s/man/boy/g 를 실행하면 man 이 boy 로 교체될 것이다.
+
+명령어의 맨 앞(1,$)은 교체 명령이 적용될 범위. 문서 전체에 교체 명령을 적용할 때는 %나 1,$를 사용. s는 교체 명령어이다. s 다음에 나오는 문자 하나는 교체 명령어에서 사용할 구분자가 되는데, 일반적으로 슬래시(/)를 사용한다. 하지만 다른 문자를 사용해도 상관없다. 예를 들어, 슬래시 대신에 쉼표를 구분자로 사용한다면 :1,$s,man,boy,g라고 적을 수 있다.
+
