@@ -1,0 +1,14 @@
+1304, Yona Yahav, M, 42, MP1
+1294, Kebin Robinson, M, 41, CP1
+1601, Steven Choi, M, 34, CP3
+1314, TW Yoon, F, 46, CP1
+
+1280, Wendy Johnson, 36, CP1, F
+1361, Marc Herold, M, 45, MP2
+1315, Rina Suzuki, F, 36, MP1
+1600, Robert Kim, M, 32, CP3
+1297, Rarry Robinson, M, 38, CP2
+
+// 수정하고 경로지정해서 저장해보기 dir_clientlist.txt
+
+
