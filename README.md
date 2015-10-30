@@ -1,5 +1,6 @@
 손에 잡히는 Vim	- getting started with vim
 ======
+------
 
 ### Vim의 배경과 설치
 
@@ -49,9 +50,19 @@ a, A|a(append)는 현재 커서 위치에서 한 칸 뒤로 이동한 후 입력
 i, I|i(insert)는 현재 커서 위치에서 입력 모드로 전환. I는 현재 행의 맨 앞으로 이동 후 입력 모드로 전환
 o, O|o(open line)는 현재 행 아래에 새로운 행을 하나 만든 후 입력 모드로 전환. O는 현재 행 위에 새로운 행을 하나 만든 후 입력 모드로 전환.
 R|수정(replace) 모드로 작동하므로 모든 글자는 덧쓰여짐.
+------|------
+:w|write, 현재 파일을 저장.
+:q|quit, vi를 종료.
+:wq|저장하고 종료.
+:w filename|filename에 해당하는 파일에 저장.(사본을 만드는 명령)
+:q!|변경된 내용을 버리고 vi를 종료.
+:w! filename|filename에 해당하는 파일을 덮어쓴다.
+:wq! filename|filename에 해당하는 파일을 덮어쓰고 종료.
+[#]h|좌로
 
 
 일반asdf;lkjdjshow me the money.dlack sheep walll, food for thoughtdf..god bless youf...
+
 
 
 
